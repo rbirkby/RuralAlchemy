@@ -3648,6 +3648,9 @@
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
 			font-size: 1.75em;
+		}
+
+		#banner p:first-of-type {
 			margin:0;
 		}
 
