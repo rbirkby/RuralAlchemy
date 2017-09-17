@@ -1851,6 +1851,13 @@
 			padding: 0;
 		}
 
+	.box.light {
+		background: rgba(255, 255, 255, 0.5);
+	}
+	.box.light, .box.light header h2, .box.light header p {
+		color: #222;
+	}
+
 		@media screen and (max-width: 980px) {
 
 			.box {
@@ -4200,10 +4207,8 @@
 /* Footer */
 
 	#footer {
-		background-color: #F64747;
 		color: #fdd1d1;
 		padding: 6em 0 4em 0;
-		background: #F64747;
 	}
 
 		#footer input, #footer select, #footer textarea {
