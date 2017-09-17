@@ -3637,9 +3637,9 @@
 		}
 
 		#banner h1 {
-			font-size: 7em;
+			font-size: 3em;
 			line-height: 1.1;
-			font-family: "Playball", cursive;
+			font-family: "Cinzel", cursive;
 			margin-bottom: .25em;
 			color: rgba(255, 255, 255, 0.75);
 			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
@@ -3649,6 +3649,7 @@
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
 			font-size: 1.75em;
+			border-bottom: solid 1px #bbb
 		}
 
 	@-moz-keyframes more {
