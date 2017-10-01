@@ -3807,15 +3807,41 @@
 			}
 
 				#banner h1 {
-					font-size: 6em;
+					font-size: 4em;
 				}
+
+		}
+
+		@media screen and (max-width: 736px) and (orientation: landscape) {
+
+			#banner img {
+				width: 30%
+			}
+
+			#banner p {
+				font-size:1.5em;
+			}
+			#banner p span {
+				font-size: 1.2em;
+			}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#banner h1 {
-				font-size: 4em;
+				font-size: 2.3em;
+			}
+
+			#banner img {
+				width: 100%
+			}
+
+			#banner p {
+				font-size:1.5em;
+			}
+			#banner p span {
+				font-size: 1.2em;
 			}
 
 			#banner .more {
