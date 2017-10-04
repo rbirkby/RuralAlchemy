@@ -1874,6 +1874,10 @@
 				padding: 2em;
 			}
 
+			.tickets iframe {
+				height: 325px;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1882,6 +1886,9 @@
 				padding: 1em;
 			}
 
+			.tickets iframe {
+				height: 375px;
+			}
 		}
 
 /* Button */
