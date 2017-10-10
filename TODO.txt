@@ -1,10 +1,4 @@
-* Image optimization
-* Robots.txt
-* Email Capture/Contact Us form (eg MailChimp/Drip)
-* Online shop/ticketing (ticketscript or shopify?)
-* favicon
 * meta tags
 * meta tags for Facebook?
-* Scale the logo for small viewports
 
 
