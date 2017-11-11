@@ -11,6 +11,54 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Pop-Up Mixology &amp; Music. A MEMBERS' CLUB WITH A DIFFERENCE.">
 
+		<style>
+		.box {
+  position: relative;
+}
+.ribbon {
+  position: absolute;
+  left: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 200px; height: 200px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 200px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#C9B608 0%, #4F5501 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 50px; left: -36px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #C9B608;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #C9B608;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #C9B608;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #C9B608;
+}
+</style>
 
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -52,12 +100,12 @@
 				<div class="inner">
 
 					<article class="box">
+						<div class="ribbon"><span>SOLD OUT</span></div>
 						<header>
 							<h2>Jazz Alchemy</h2>
 							<p>Saturday 11th November 2017</p>
 						</header>
 						<div class="content" class="container">
-
 							<!-- Content -->
 							<p>
 								A night for relaxation, fun and friendship, with music by the Dancing Souls, cocktails by Henry, and seasonal food by Lassco
