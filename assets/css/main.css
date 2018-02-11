@@ -1,16 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Cinzel|Hammersmith+One|Playball|Special+Elite|Zilla+Slab");
-
-@font-face {
- font-family: "Playball";
- src: url("/assets/fonts/Playball-Regular.ttf");
-}
-
-@font-face {
- font-family: "Cinzel";
- src: url("/assets/fonts/Cinzel-Regular.ttf");
-}
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Hammersmith+One");
 
 
 /*
@@ -1629,7 +1619,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "SPECIAL ELITE", Arial, Helvetica, sans-serif;
+		font-family: "PT Sans", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2758,7 +2748,7 @@
 
 	header h2 + p {
 		font-size: 2em;
-		font-family: 'Playball';
+		font-family: 'Hammersmith One';
 		line-height:1.2em;
 	}
 
@@ -3651,7 +3641,7 @@
 			opacity: 1;
 			position: relative;
 			z-index: 2;
-			font-family: "Cinzel", cursive;
+			font-family: "PT Sans", cursive;
 		}
 
 		#banner h1 {
@@ -3674,7 +3664,7 @@
 
 		#banner p span {
 			font-size: 1.8em;
-			font-family: "Playball", cursive;			
+			font-family: "PT Sans", cursive;			
 			border-bottom: solid 1px #bbb
 		}
 
