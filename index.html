@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Rural Alchemy
 ---
 <!DOCTYPE HTML>
@@ -11,19 +11,12 @@ title: Rural Alchemy
 <html>
 	<head>
 		<title>Rural Alchemy</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Pop-Up Mixology &amp; Music.">
+		{% include meta.html %}
 
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5FTSCJT');</script>
-	<!-- End Google Tag Manager -->
+	{% include google-tag-manager.html %}
 
-		<link rel="stylesheet" href="assets/css/main.css?v=1.2" />
+	<!-- End Google Tag Manager -->
 
 		<!-- https://cookieconsent.insites.com/download/ -->
 		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
