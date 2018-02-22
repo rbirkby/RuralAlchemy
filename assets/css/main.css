@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=PT+Sans|Hammersmith+One");
-
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Hammersmith+One|PT+Sans|Playball');
 
 /*
 	Road Trip by TEMPLATED
@@ -1835,6 +1834,8 @@
 
 		.box header p {
 			color: rgba(255, 255, 255, 0.5);
+			font-family: playball;
+			margin-bottom: 0;
 		}
 
 		.box.alt {
@@ -3641,7 +3642,7 @@
 			opacity: 1;
 			position: relative;
 			z-index: 2;
-			font-family: "PT Sans", cursive;
+			font-family: "Cinzel", cursive;
 		}
 
 		#banner h1 {
@@ -3664,8 +3665,9 @@
 
 		#banner p span {
 			font-size: 1.8em;
-			font-family: "PT Sans", cursive;			
-			border-bottom: solid 1px #bbb
+			font-family: "Playball", cursive;			
+			border-top: solid 1px #bbbbbb;
+			padding-top:8px;
 		}
 
 	@-moz-keyframes more {
