@@ -2748,8 +2748,7 @@
 	}
 
 	header h2 + p {
-		font-size: 2em;
-		font-family: 'Hammersmith One';
+		font-size: 2.5em;
 		line-height:1.2em;
 	}
 
@@ -4145,6 +4144,10 @@
 				right: .425em;
 				bottom: -.075em;
 			}
+			.post ul {
+				text-align:left;
+				padding: 40px 0 0 0;
+			}
 
 		@media screen and (max-width: 980px) {
 
@@ -4484,3 +4487,7 @@
 			}
 
 		}
+
+		@media screen and (min-width: 980px) {
+			.content .narrow {padding: 0 120px 0 120px} 
+		}		
